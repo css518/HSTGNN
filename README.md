@@ -1,22 +1,22 @@
 # HSTGNN
 
-### Inroduction 
+## Inroduction 
 
-This repository is a pytorch version implementation of DEXA 2021 conference paper
+This repository is a pytorch version implementation of DEXA 2021 conference paper [https://link.springer.com/chapter/10.1007/978-3-030-86472-9_29](paper link)
 "Traffic Flow Prediciton through the Fusion of Spatial Temporal Data and Points of Interest".  
 
-### How to run
+## Run program
 
-1.pakage dependencies  
-   To run this code, you need to install the following dependencies:  
+### 1.pakage dependencies  
+   To run this code, you need to install the following packages:  
    torch==1.6.1    
    numpy==1.16.3  
    pandas==1.1.5  
    scipy==1.2.1  
    h5py==3.1.0  
 
-2.datasets  
-   download the dataset form https://github.com/panzheyi/ST-MetaNet, 
+### 2.datasets  
+   download the dataset from [https://github.com/panzheyi/ST-MetaNet](repository link), 
    ZheYi Pan,KDD2019,"Urban traffic prediction from spatio-temporal data using deep meta learning"  
 
 copy the BJ_FLOW.h5,BJ_POI.h5 to data folder    
@@ -25,7 +25,7 @@ copy the BJ_FLOW.h5,BJ_POI.h5 to data folder
 whether there is an edge between two regions, datails see /utils/generate_time_embedding.py, cossimi_graph serves as initial adjacent matrix to initialize the parameter of 
 adaptive adjacent matrix.
 
-3.Run  
+### 3.Run  
 nohup python -u train.py > file.log 2>&1 &  
 
 If you find this repository is helpful to you, please cite our paper, thanks for your attention.
