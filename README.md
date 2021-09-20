@@ -2,7 +2,7 @@
 
 ## Inroduction 
 
-This repository is a pytorch version implementation of DEXA 2021 conference paper [https://link.springer.com/chapter/10.1007/978-3-030-86472-9_29](paper link)
+This repository is a pytorch version implementation of DEXA 2021 conference paper [paper link](https://link.springer.com/chapter/10.1007/978-3-030-86472-9_29)
 "Traffic Flow Prediciton through the Fusion of Spatial Temporal Data and Points of Interest".  
 
 ## Run program
@@ -16,7 +16,7 @@ This repository is a pytorch version implementation of DEXA 2021 conference pape
    h5py==3.1.0  
 
 ### 2.datasets  
-   download the dataset from [https://github.com/panzheyi/ST-MetaNet](repository link), 
+   download the dataset from [repository link](https://github.com/panzheyi/ST-MetaNet), 
    ZheYi Pan,KDD2019,"Urban traffic prediction from spatio-temporal data using deep meta learning"  
 
 copy the BJ_FLOW.h5,BJ_POI.h5 to data folder    
